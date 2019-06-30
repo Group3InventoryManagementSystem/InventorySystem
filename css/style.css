@@ -1,0 +1,338 @@
+*{
+    font-family: inherit;
+}
+html{
+    min-width: 1000px;
+}
+/***************HEADER*********************/
+header{
+     border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 20px;
+}
+header nav ul{
+    float:right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+header nav ul li{
+    float:left;
+    list-style: none;
+    padding:20px 20px;
+    font: bold;
+    font-size:18px;
+    outline: none;
+    height: 20px;
+    border-left: solid 1px #1d2c1d;
+}
+header nav ul li:hover{
+    background-color: #e8491d;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+header{
+    width: 100%;
+    height:60px;
+    background-color:#0B1A0B;
+}
+header .current a{
+    color: #e8491d;
+}
+header .current:hover{
+    background-color: #0B1A0B;
+}
+header h1{
+    color: white;
+    position: absolute;
+    left: 20px;
+    margin: 0px;
+    top: 10px;
+}
+header input{
+    background-color: #0B1A0B;
+    font-size: 13pt;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+header input:hover{
+    text-decoration: underline;
+    background-color: #e8491d;
+}
+header nav ul li:hover input{
+    background-color: #e8491d;
+}
+/*****************BODY********************/
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: azure;
+}
+
+.box{
+    border:2px solid #0B1A0B;
+    background: #ffffff;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.login .box{
+    margin-top: 100px;
+}
+.box h1{
+    width: 100%;
+    background-color: #0B1A0B;
+    margin-top: 0px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-left: solid 1px #0B1A0B;
+}
+table th{
+    background-color: #0B1A0B;
+    padding: 10px 7px;
+    color: white;
+    font-size: 13pt;
+    border-right: solid 1px #e8491d;
+}
+table tr{
+    border-bottom: solid 1px #0B1A0B;
+}
+table td{
+    padding: 5px;
+    border-right: solid 1px #0B1A0B;
+}
+table input{
+    border: none;
+    padding: 7px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+table select{
+    background-color: azure;
+    border: none;
+    border-bottom: solid 1px #0b1a0b;
+}
+table input:hover{
+    text-decoration: underline;
+}
+table .approve{
+    background-color: limegreen;
+}
+table .decline{
+    background-color: #e8491d;
+}
+table table{
+    margin: 0px;
+    border: none;
+    float: right;
+    margin-right: 63%;
+}
+table table tr{
+    border: none;
+}
+table table th{
+    padding: 0px;
+    background-color: azure;
+    font-size: 12pt;
+    border: none;
+    color: #0b1a0b;
+    
+}
+table table td{
+    border: none;
+    padding: 0px;
+    padding-right: 7px;
+}
+table input[name='complete']{
+    background-color: #0b1a0b;
+    color: white;
+}
+table input[name='complete']:hover{
+    background-color: #e8491d;
+    text-decoration: none;
+}
+.report .filter form{
+    margin: 20px;
+}
+.report table{
+    margin: auto;
+}
+.report .filter form input[type='date']{
+    background-color: azure;
+    border: none;
+    border-bottom: solid 1px #0b1a0b;
+}
+.report .filter form input[type='submit'],
+#submit_section input, .button{
+    background-color: #0b1a0b;
+    padding: 3px 7px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.report .filter input[type='submit']:hover,
+#submit_section input:hover, .button:hover{
+    background-color: #e8491d;
+}
+.report .label{
+    margin: 10px auto;
+    height: 20px;
+    display: block;
+}
+.materials{
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+.button{
+    padding: 1px 7px;
+    margin-left: 7px;
+}
+.materials table{
+    border: none;
+}
+.materials table tr{
+    border: none;
+}
+.materials table td{
+    border: none;
+    padding: 0px;
+    padding-right: 7px;
+}
+.materials input[type='number'],
+.materials select{
+    background-color: azure;
+    border: none;
+    border-bottom: solid 1px #0b1a0b;
+    margin-right: 10px;
+}
+#materials_request_form button, 
+.foreman_work .rbutton{
+    background-color: #e8491d;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#materials_request_form button:hover{
+    text-decoration: underline;
+}
+.name{
+    width: 100px;
+    display: inline-block;
+}
+.foreman #filter{
+    margin-top: 20px;
+}
+.foreman #filter select{
+    background-color: azure;
+    border: none;
+    border-bottom: solid 1px #0b1a0b;
+}
+#selected{
+    float: right;
+    margin-right: 25%;
+}
+#selected div{
+    margin-top: 5px;
+}
+/*******************INPUT**********************/
+.box input, .box select, .box textarea{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #0B1A0B;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 12pt;
+}
+.box input[type="submit"]
+{
+    outline:none; 
+    height: 15px;
+    background: none;
+    color: #0B1A0B;
+    font-size: 12px;
+    border-radius: 3px;
+    max-width: 80px;
+    height: 30px;
+    border: solid 1px #0B1A0B;
+    font-size: 13pt;
+    margin-top: 20px;
+}
+.secretary .box input[type="submit"]{
+    max-width: 130px;
+}
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#e8491d;
+    color: white;
+}
+label{
+    color:#0B1A0B;
+}
+/*******************REPORTING******************/
+.error, #err{
+    color: #e8491d;
+    font-size: 11pt;
+}
+.success{
+    color: green;
+    font-size: 11pt;
+}
+.hidden{
+    opacity: 0;
+    transition: .3s;
+}
+/*************HOME*************************/
+#showcase{
+    height: 400px;
+    display: block;
+}
+#showcase .container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    opacity: .8;
+    padding: 7px 20px;
+    text-align: center;
+}
+/*******************FOOTER*****************/
+#footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0B1A0B;
+    color: white;
+    border-top: solid 3px #e8491d;
+}
+#footer table{
+    margin: 0px 20px;
+}
